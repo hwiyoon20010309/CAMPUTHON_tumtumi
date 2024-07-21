@@ -1,0 +1,29 @@
+.start-img-container {
+    margin-top: 180px;
+    text-align: center;
+}
+
+/* 부모 요소의 스타일 */
+.start-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 필요에 따라 부모 요소의 크기를 설정 */
+    height: 50px;
+    /* 예시로 부모 요소의 높이를 설정 */
+}
+
+/* 버튼의 스타일 */
+.startbutton {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #936639;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    margin: 30px;
+}

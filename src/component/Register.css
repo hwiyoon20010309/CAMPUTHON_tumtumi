@@ -1,0 +1,160 @@
+.register-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.register-header {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 2px solid #936639;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header h3 {
+    margin: 0;
+}
+
+.placeholder {
+    position: absolute;
+    right: 10px;
+    width: 24px; /* 아이콘 크기와 동일하게 설정 */
+    height: 24px;
+}
+
+.logo2 {
+    width: 50px;
+    height: 32px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.upload-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.upload-image {
+    width: 100%;
+    height: 150px;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #936639;
+    border-radius: 10px;
+}
+
+.input-title, .input-description {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-description {
+    height: 100px;
+    resize: none;
+}
+
+.category-section {
+    margin-bottom: 20px;
+}
+
+.register-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.register-category-item {
+    font-size: 13px;
+    color: #936639;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #936639;
+}
+
+.register-category-notice {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #936639;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 2px solid #936639;
+}
+
+.nav-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.alert-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #936639;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
